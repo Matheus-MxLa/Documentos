@@ -14,7 +14,6 @@
     </nav>
   </header>
 </template>
-
 <style scooped>
 header{
   font-size: 1.4rem;
