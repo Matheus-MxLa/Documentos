@@ -18,7 +18,7 @@
 header{
   font-size: 1.4rem;
   background-color: #696766;
-  padding: 1vw 2vw;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@ header div {
   gap: 10px;
 }
 header div h2{
-  font-size: 2vw;
+  font-size: 2rem;
 }
 header nav ul {
   display: flex;
@@ -40,5 +40,20 @@ header nav ul li a {
 }
 h2, p, a {
   color: white;
+}
+@media screen and (max-width: 768px) {
+header{
+  font-size: 12px;
+  padding: 1rem 1rem;
+}
+header div {
+  gap: 10px;
+}
+header div h2{
+  font-size: 1rem;
+}
+header nav ul {
+  gap: 1rem;
+}
 }
 </style>

@@ -49,7 +49,7 @@
 <style scoope>
 main section.banner div {
   background-image: url(/public/banner.png);
-  padding: 10vw 0 20vw 0;
+  padding: 10rem 0 20rem 0;
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,16 +107,16 @@ main section.cards ul {
     text-align: center;
   }
   main section.log-on h2 {
-    font-size: 2.5vw;
-    margin: 0 0 2vw 0;
+    font-size: 2.5rem;
+    margin: 0 0 2rem 0;
   }
   main section.log-on p {
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 5vw 25vw;
   }
   main section.log-on button {
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     background-color: #7C7661;
     padding: 1vw 8vw;
     border-radius: 4vw;
@@ -138,5 +138,35 @@ main section.cards ul {
     font-size: 3vw;
     border: 15px solid #EFBF04;
 
+  }
+  @media screen and (max-width: 768px) {
+  main section.banner div {
+    padding: 5rem 0 5rem 0;
+  }main section.banner div p {
+    font-size: 1rem;
+    margin: 0 5rem;
+  }
+  main section.banner div p.P1 {
+    margin: 0 5rem 5vw 5rem;
+  }
+  main section.cards ul li a span.texto {
+  font-size: 1rem;
+  }
+  main section.cards ul li a img {
+    width: 8rem;
+    height: 8rem;
+  }
+  main section.log-on h2 {
+    font-size: 1.5rem;
+  }
+  main section.log-on p {
+    font-size: 1rem;
+  }
+  main section.log-on button {
+    font-size: 1rem;
+  }
+  main section.mensage button {
+    border: 5px solid #EFBF04;
+  }
   }
 </style>
