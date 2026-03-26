@@ -1,7 +1,7 @@
 <template>
  <main>
   <section class="banner">
-    <h1>JANNY & JASON</h1>
+    <h1>JENNY & JASON</h1>
     <div>
     <p class="P1">With love and gratitude, we invite you to share in the joy of our wedding day.</p>
     <p>Saturday, September 20, 2025 The Golden Elm Manor, St.Augustine, New York</p>
